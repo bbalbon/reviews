@@ -7,19 +7,19 @@ const Review = ({ review }) => {
   let stayDate = moment(review.stayDate).fromNow();
   let postDate = moment(review.postDate).fromNow();
   if (review.reviewScore === 5) {
-    score = <img src="five-star.png"></img>;
+    score = <img src="https://i.ibb.co/BymJ45t/five-star.png"></img>;
   }
   if (review.reviewScore === 4) {
-    score = <img src="four-star.png"></img>;
+    score = <img src="https://i.ibb.co/FB6n4rG/four-star.png"></img>;
   }
   if (review.reviewScore === 3) {
-    score = <img src="three-star.png"></img>;
+    score = <img src="https://i.ibb.co/dpJdg0v/three-star.png"></img>;
   }
   if (review.reviewScore === 2) {
-    score = <img src="two-star.png"></img>;
+    score = <img src="https://i.ibb.co/d2Q3ZXk/two-star.png"></img>;
   }
   if (review.reviewScore === 1) {
-    score = <img src="one-star.png"></img>;
+    score = <img src="https://i.ibb.co/jDVXLrW/one-star.png"></img>;
   }
 
   return (
@@ -32,7 +32,7 @@ const Review = ({ review }) => {
           <span className="username">{review.username}</span>
           <span className="review-date"> wrote a review {postDate}</span>
           <span>
-            <img className="dots" src="dots.png"></img>
+            <img className="dots" src="https://i.ibb.co/zJ9YfLJ/dots.png"></img>
           </span>
         </div>
 
@@ -69,11 +69,14 @@ const Review = ({ review }) => {
       </div>
       <div className="review-bottom">
         <span className="helpful">
-          <img className="thumb-up" src="thumbup.png"></img>
+          <img
+            className="thumb-up"
+            src="https://i.ibb.co/TqTq3v3/thumbup.png"
+          ></img>
           <span className="helpful-text">Helpful</span>
         </span>
         <span className="share-info">
-          <img className="share" src="share.png"></img>
+          <img className="share" src="https://i.ibb.co/g6zNsyX/share.png"></img>
           <span className="share-text">Share</span>
         </span>
       </div>

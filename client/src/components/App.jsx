@@ -32,7 +32,10 @@ class App extends React.Component {
             onClick={() => this.changeView("reviews")}
           >
             <div className="tab-icon">
-              <img className="nav-icon" src="pen-and-paper.png"></img>
+              <img
+                className="nav-icon"
+                src="https://i.ibb.co/YZSgn2t/pen-and-paper.png"
+              ></img>
             </div>
             <div className="tab-name">
               <div> {this.state.totalNumberOfReviews}</div>
@@ -46,7 +49,10 @@ class App extends React.Component {
             onClick={() => this.changeView("q&a")}
           >
             <div className="tab-icon">
-              <img className="nav-icon" src="q_and_a.png"></img>
+              <img
+                className="nav-icon"
+                src="https://i.ibb.co/CQ9HhLV/q-and-a.png"
+              ></img>
             </div>
             <div className="tab-name">
               <div> {this.state.totalNumberOfReviews}</div>
@@ -63,7 +69,10 @@ class App extends React.Component {
             onClick={() => this.changeView("room_tips")}
           >
             <div className="tab-icon">
-              <img className="nav-icon" src="lightbolb.png"></img>
+              <img
+                className="nav-icon"
+                src="https://i.ibb.co/g6VxLWk/lightbolb.png"
+              ></img>
             </div>
             <div className="tab-name">
               <div> {this.state.totalNumberOfReviews}</div>

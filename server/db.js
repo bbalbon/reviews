@@ -76,7 +76,7 @@ var getRandomComment = () => {
       arrayOfLocations[Math.floor(Math.random() * arrayOfLocations.length)],
     numberOfContributions: Math.floor(Math.random() * Math.floor(40)),
     helpfulVotes: Math.floor(Math.random() * Math.floor(20)),
-    profileImage: "avatar.jpeg",
+    profileImage: "https://i.ibb.co/HFb6VvX/avatar.png",
     postDate: randomDate(new Date(2019, 0, 1), new Date()),
     reviewScore: getRandomNumber(0, 5),
     reviewTitle: lorem.generateWords(2),
