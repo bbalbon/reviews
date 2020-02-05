@@ -7,19 +7,44 @@ const Review = ({ review }) => {
   let stayDate = moment(review.stayDate).fromNow();
   let postDate = moment(review.postDate).fromNow();
   if (review.reviewScore === 5) {
-    score = <img src="https://i.ibb.co/BymJ45t/five-star.png"></img>;
+    score = (
+      <img
+        className="review-score"
+        src="https://i.ibb.co/BymJ45t/five-star.png"
+      ></img>
+    );
   }
   if (review.reviewScore === 4) {
-    score = <img src="https://i.ibb.co/FB6n4rG/four-star.png"></img>;
+    score = (
+      <img
+        className="review-score"
+        src="https://i.ibb.co/FB6n4rG/four-star.png"
+      ></img>
+    );
   }
   if (review.reviewScore === 3) {
-    score = <img src="https://i.ibb.co/dpJdg0v/three-star.png"></img>;
+    score = (
+      <img
+        className="review-score"
+        src="https://i.ibb.co/dpJdg0v/three-star.png"
+      ></img>
+    );
   }
   if (review.reviewScore === 2) {
-    score = <img src="https://i.ibb.co/d2Q3ZXk/two-star.png"></img>;
+    score = (
+      <img
+        className="review-score"
+        src="https://i.ibb.co/d2Q3ZXk/two-star.png"
+      ></img>
+    );
   }
   if (review.reviewScore === 1) {
-    score = <img src="https://i.ibb.co/jDVXLrW/one-star.png"></img>;
+    score = (
+      <img
+        className="review-score"
+        src="https://i.ibb.co/jDVXLrW/one-star.png"
+      ></img>
+    );
   }
 
   return (
@@ -55,7 +80,7 @@ const Review = ({ review }) => {
         </div>
       </div>
       <div className="review-body">
-        <div className="review-score">{score}</div>
+        <div>{score}</div>
         <div className="review-title">{review.reviewTitle}</div>
         <div className="review-text">{review.reviewText}</div>
         <div className="review-stay-data">
