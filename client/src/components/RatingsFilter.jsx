@@ -35,7 +35,7 @@ class RatingsFilter extends React.Component {
         <div className="filter-header">Traveler rating</div>
         <ul className="filter-table">
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="excellent-checkbox"
                 name="excellent"
@@ -57,7 +57,7 @@ class RatingsFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="very-good-checkbox"
                 name="very-good"
@@ -79,7 +79,7 @@ class RatingsFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="average-checkbox"
                 name="average"
@@ -102,7 +102,7 @@ class RatingsFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="poor-checkbox"
                 name="poor"
@@ -125,7 +125,7 @@ class RatingsFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="terrible-checkbox"
                 name="terrible"

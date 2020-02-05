@@ -30,7 +30,7 @@ class TimeOfYearFilter extends React.Component {
         <div className="filter-header">Time of year</div>
         <ul className="filter-table">
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="mar-may-checkbox"
                 name="sep-nov"
@@ -44,7 +44,7 @@ class TimeOfYearFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="jun-aug-checkbox"
                 name="jun-aug"
@@ -58,7 +58,7 @@ class TimeOfYearFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="sep-nov-checkbox"
                 name="sep-nov"
@@ -72,7 +72,7 @@ class TimeOfYearFilter extends React.Component {
             </label>
           </li>
           <li className="checkbox">
-            <label className="container">
+            <label className="filter-container">
               <input
                 className="dec-feb-checkbox"
                 name="dec-feb"
