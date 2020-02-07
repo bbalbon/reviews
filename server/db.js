@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const LoremIpsum = require("lorem-ipsum").LoremIpsum;
-mongoose.connect("mongodb://localhost/reviews", {
+mongoose.connect("mongodb://database/reviews", {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
